@@ -1,0 +1,75 @@
+body {
+    width: 70%;
+    margin-left: 15%;
+}
+header {
+    position: absolute;
+    right: 50%;
+}
+
+main {
+    position: absolute;
+    word-wrap: normal;
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+section {
+    width: 90%;
+
+}
+
+.foto {
+    position: absolute;
+    max-width: 25%;
+    right: 0;
+}
+
+br {
+    font: 14;
+}
+
+em {
+    color: blue;
+}
+
+h1 {
+    max-width: 70%;
+}
+
+img {
+    max-width: 2%;
+}
+
+footer {
+    position: absolute;
+    bottom: 1%;
+    left: 40%;
+    display: table;
+    
+
+}
+span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+ul {
+    padding-left: 2%
+}
+
+.contact li {
+    display: inline;
+    margin-right: 1%;
+    vertical-align: middle;
+}
+
+a {
+    color: darkslateblue; 
+    text-decoration: none;
+}
+a:hover { 
+    text-decoration: underline;
+    color: red; 
+}

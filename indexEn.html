@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./item/githubLogo.png" type="image/png">
+    <link rel="stylesheet" href="./item/style.css">
+    <title>Resume Yakymenko Mykola</title>
+    <link rel="script" href="./item/script.js">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">ru</a>
+        <a href="indexEn.html">en</a>
+    </header>
+    <main>
+        <section>
+            <img src="./item/foto.jpg" alt="foto" class="foto">
+            <h1>Yakymenko Mykola</h1>
+            Mobile-phone: <a href="tel:+380972132191">+38-097-213-2191</a><br>
+            E-mail: <a href="mailto:nn.yakimenko@gmail.com">nn.yakimenko@gmail.com</a><br>
+            Birthday: 31.10.1991<br>
+            City: Mariupol, Urkaine
+        </section>
+        <section>
+            <h2>Education</h2>
+            17.09.2020 - <em title="Don't finished yet" id="today"></em>. Beetroot Academy «FrontEnd»<br>
+            01.07.2020 - <em title="Don't finished yet" id="today1"></em>. Harvard «CS50's Web Programming with Python
+            and
+            JavaScript»<br>
+            01.03.2020 - 22.05.2020. Harvard «CS50: Introduction to Computer Science» <br>
+            01.09.2011 - 21.06.2015. Priazovsky State Technical University. Specialty: accounting and audit.
+            Scientific degree: Master<br>
+        </section>
+        <section>
+            <h2>My works</h2>
+            <ul>
+                <li><a target="_blank" href="https://gonzika.github.io/weather/">Weather</a></li>
+                <li><a target="_blank" href="https://gonzika.github.io/namaste/">Namaste</a></li>
+                <li><a target="_blank" href="https://gonzika.github.io/shopsList/">Shop's list</a></li>
+                <li><a target="_blank" href="https://gonzika.github.io/Services/">Services</a></li>
+                <li><a target="_blank" href="https://gonzika.github.io/hw3/index.html">Home work 3</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <span>Contact me:</span>
+        <ul>
+            <li><a href="tel:+380972132191"><img src="./item/tel.png" alt="+380972132191"></a></li>
+            <li><a href="mailto:hziben@gmail.com"><img src="./item/gmailLogo.png" alt="hziben@gmail.com"></a></li>
+            <li><a href="https://gonzika.github.io/srttranslate/"><img src="./item/githubLogo.png"
+                        alt="https://gonzika.github.io/srttranslate/"></a></li>
+        </ul>
+    </footer>
+
+    <script>
+        today = new Date().toLocaleDateString();
+        document.getElementById('today').innerHTML = today;
+        document.getElementById('today1').innerHTML = today;
+    </script>
+</body>
+
+</html>
