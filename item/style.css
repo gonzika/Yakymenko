@@ -1,68 +1,75 @@
+* {
+    transition: .2s linear;
+}
+
 body {
-    width: 70%;
-    margin-left: 15%;
+    margin: 1% 15%;
+    font-size: 18px;
+    max-width: 1420px;
+    
 }
+
 header {
-    position: absolute;
-    right: 50%;
+    text-align: center;
 }
 
-main {
-    position: absolute;
-    word-wrap: normal;
-    margin-top: 1%;
-    margin-left: 3%;
-    margin-right: 3%;
+.sec1 {
+display: flex;
 }
 
-section {
-    width: 90%;
+.inline {
+    display: inline;
 
+}
+
+.div-foto {
+    margin-left: 20%;
+    margin-top: 25px;
 }
 
 .foto {
-    position: absolute;
-    max-width: 25%;
-    right: 0;
-}
-
-br {
-    font: 14;
+max-width: 192px;
 }
 
 em {
     color: blue;
 }
 
-h1 {
-    max-width: 70%;
-}
-
-img {
-    max-width: 2%;
-}
 
 footer {
-    position: absolute;
-    bottom: 1%;
-    left: 40%;
-    display: table;
-    
-
+    margin: 2% 0 1% 0;
+    text-align: center;
 }
-span {
-    display: table-cell;
-    vertical-align: middle;
+
+footer div{
+    display: inline;
 }
 
 ul {
-    padding-left: 2%
+    display: inline;
+    padding: 0 10px;
+}
+
+footer ul {
+    display:inline;
+}
+
+footer div {
+    display:inline;
 }
 
 .contact li {
     display: inline;
     margin-right: 1%;
     vertical-align: middle;
+}
+
+.contact li a:hover{
+    text-decoration: none;
+}
+
+.contact li a:hover svg {
+    fill: red;
 }
 
 a {
@@ -72,4 +79,8 @@ a {
 a:hover { 
     text-decoration: underline;
     color: red; 
+}
+
+svg {
+    width: 15px;
 }
