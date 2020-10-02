@@ -1,5 +1,5 @@
 * {
-    transition: .2s linear;
+    transition: .1s linear;
 }
 
 body {
@@ -14,17 +14,22 @@ header {
 }
 
 .sec1 {
-display: flex;
+    margin-top: 20px;
+    display: flex;
+}
+
+.sec1 h1 {
+    margin-top: 0;
 }
 
 .inline {
-    display: inline;
+    width: 70%;
 
 }
 
 .div-foto {
-    margin-left: 20%;
-    margin-top: 25px;
+    width: 25%;
+    float: right;
 }
 
 .foto {
@@ -46,15 +51,10 @@ footer div{
 }
 
 ul {
-    display: inline;
     padding: 0 10px;
 }
 
 footer ul {
-    display:inline;
-}
-
-footer div {
     display:inline;
 }
 
